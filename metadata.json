@@ -1,0 +1,6 @@
+{
+  "name": "Workspace Tasks Sync",
+  "description": "An app integrating with Google Tasks to manage your to-do list.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
