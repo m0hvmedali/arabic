@@ -105,6 +105,14 @@ export default function App() {
                           <h2 className="text-2xl md:text-3xl lg:text-4xl leading-[1.6] font-bold text-white">
                             {question.text}
                           </h2>
+                          {question.requirement && (
+                            <div className="inline-block px-4 py-2.5 bg-emerald-500/10 border border-emerald-500/20 rounded-xl mt-4">
+                              <p className="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                المطلوب: {question.requirement}
+                              </p>
+                            </div>
+                          )}
                         </div>
                       </div>
 
